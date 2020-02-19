@@ -1,0 +1,6 @@
+[submodule "Deps/oce"]
+	path = Deps/oce
+	url = https://github.com/tpaviot/oce.git
+[submodule "Deps/topy"]
+	path = Deps/topy
+	url = https://github.com/mlaradji/topy.git
