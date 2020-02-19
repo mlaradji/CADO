@@ -1,6 +1,6 @@
 # Build (Debian)
 ### Install OpenCascade Community Edition
-```
+```sh
 cd Deps/oce
 mkdir build
 cd build
@@ -11,12 +11,12 @@ make install
 ```
 
 ### Install FreeCAD
-```
+```sh
 apt-get install freecad
 ```
 
 ### Install ToPy
-```
+```sh
 conda create -n CADO
 conda install -f conda.yaml
 conda activate CADO
@@ -25,7 +25,7 @@ python setup.py install
 ```
 
 ### Build CADO
-```
+```sh
 conda activate CADO
 cd CADO
 make
